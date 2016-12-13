@@ -1,5 +1,5 @@
 {
-  "name": "react-proptypes",
+  "name": "react.proptypes",
   "version": "1.0.0",
   "description": "React PropTypes utility",
   "main": "index.js",
