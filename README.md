@@ -7,7 +7,7 @@ import rpt from 'react.proptypes';
 static propTypes = rpt({
   username: 'string',
   age: 'number',
-  handleChange: 'function',
+  handleChange: 'func',
   minor: 'bool',
 });
 ```
