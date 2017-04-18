@@ -1,9 +1,9 @@
-const React = require('react');
+const PropTypes = require('prop-types');
 
 function handleProps(props) {
   const newProps = {};
 
-  Object.keys(props).map(item => newProps[item] = React.PropTypes[props[item]]);
+  Object.keys(props).map(item => newProps[item] = PropTypes[props[item]]);
 
   return newProps;
 }
